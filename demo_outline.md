@@ -1,0 +1,18 @@
+- What does the project look like as a whole?
+  - git log --oneline --graph --all
+- What has happened on the main branch since the feature branch branched off?
+  - git diff --merge-base feat-1
+- What commit fixed the easter egg?
+  - git bisect start
+  - git bisect old ....
+  - git bisect new HEAD
+  - ...
+- How can a pull that change into my branch?
+  - git cherry-pick <commit>
+- How can I look at a file from another branch?
+  - git show <branch>:<filepath>
+  - git worktree
+- How can I get a file from another branch?
+  - git restore --source=<branch> <file>
+- How can I undo a mistake?
+  - git reflog
