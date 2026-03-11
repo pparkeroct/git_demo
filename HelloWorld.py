@@ -1,5 +1,8 @@
 import sys
 
+def greet(name):
+    return f"Hello, {name}!"
+
 def easter_egg():
     print("You found the Easter Egg! 🐰")
 
@@ -10,7 +13,7 @@ def main():
     if message.lower() == "easter egg":
         easter_egg()
     else:
-        print(message)
+        print(greet(message))
 
 if __name__ == "__main__":
     main()
