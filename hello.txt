@@ -1,6 +1,6 @@
 First file
 
-List of vegetables:
+List of fruits:
 - Apples
 - Oranges
 - Grapes
