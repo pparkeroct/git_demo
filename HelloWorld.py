@@ -7,7 +7,7 @@ def main():
     message = "Hello, World!"
     if len(sys.argv) > 1:
         message = sys.argv[1]
-    if message.lower() == "easter egg":
+    if message.lower() == "easter_egg":
         easter_egg()
     else:
         print(message)
